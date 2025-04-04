@@ -19,7 +19,7 @@ test('parse child property using separator', () => {
 test('parse child property with null value', () => {
   const flatten = flattenObject({foo: {bar: null}}, {}, '', '___')
   expect(flatten.foo___bar).toBe(null)
-});
+})
 
 test('get yaml data', () => {
   const yaml = `
@@ -46,5 +46,5 @@ foo:
   bar:
 `
   const yamlData = getYamlData(yaml, 'foo')
-  expect(yamlData.bar).toBe(null);
+  expect(yamlData.bar).toBe(null)
 })
