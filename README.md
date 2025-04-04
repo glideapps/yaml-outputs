@@ -2,6 +2,8 @@
 
 This GitHub Action reads a YAML file and flattens it recursively into a set of output parameters.
 
+Forked from: https://github.com/actions-tools/yaml-outputs
+
 ## Inputs 📝
 
 ### `file-path`
